@@ -1,0 +1,65 @@
+[
+  {
+    "id": 108171,
+    "name": "Labwork1",
+    "coordinates": {
+      "x": 5,
+      "y": 3
+    },
+    "creationDate": "Mar 9, 2022, 8:30:15 PM",
+    "minimalPoint": 10.0,
+    "difficulty": "HARD",
+    "author": {
+      "name": "Ivan",
+      "eyeColor": "GREEN",
+      "nationality": "INDIA"
+    }
+  },
+  {
+    "id": 138424,
+    "name": "Labwork2",
+    "coordinates": {
+      "x": 2,
+      "y": 1
+    },
+    "creationDate": "Mar 9, 2022, 8:30:15 PM",
+    "minimalPoint": 100.0,
+    "difficulty": "EASY",
+    "author": {
+      "name": "Vasya",
+      "eyeColor": "GREEN",
+      "nationality": "USA"
+    }
+  },
+  {
+    "id": 196428,
+    "name": "Labwork3",
+    "coordinates": {
+      "x": 2,
+      "y": 3
+    },
+    "creationDate": "Mar 9, 2022, 8:30:15 PM",
+    "minimalPoint": 50.0,
+    "author": {
+      "name": "Petya",
+      "eyeColor": "GREEN"
+    }
+  },
+  {
+    "id": 65479,
+    "name": "LAB",
+    "coordinates": {
+      "x": 56,
+      "y": 6
+    },
+    "creationDate": "Mar 9, 2022, 8:30:24 PM",
+    "minimalPoint": 90.0,
+    "difficulty": "EASY",
+    "author": {
+      "name": "PETR",
+      "birthday": "May 6, 2003, 12:00:00 AM",
+      "eyeColor": "RED",
+      "nationality": "USA"
+    }
+  }
+]

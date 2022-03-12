@@ -1,0 +1,13 @@
+help
+add
+LAB
+5
+4
+100
+EASY
+PETR
+RED
+USA
+save
+show
+exit
