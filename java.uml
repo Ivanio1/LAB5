@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Asus/IdeaProjects/5_1.8/src/main/java</OriginalElement>
+  <nodes>
+    <node x="855.3955479452054" y="746.0">utility.Collector</node>
+    <node x="568.2277397260273" y="518.5">exceptions.MinimalpointIsLessThenZero</node>
+    <node x="0.0" y="518.5">exceptions.WrongAmountOfElementsException</node>
+    <node x="1058.4777397260273" y="0.0">data.Country</node>
+    <node x="876.4777397260273" y="0.0">data.Color</node>
+    <node x="438.3732876712328" y="1602.0">utility.Commander</node>
+    <node x="1230.6038812785387" y="518.5">exceptions.WrongDate</node>
+    <node x="740.2220319634703" y="191.0">data.Coordinates</node>
+    <node x="525.1232876712328" y="1730.0">run.Main</node>
+    <node x="997.3538812785388" y="191.0">data.Difficulty</node>
+    <node x="542.2220319634703" y="180.0">data.Person</node>
+    <node x="331.2277397260273" y="518.5">exceptions.ScriptRecursionException</node>
+    <node x="827.2277397260273" y="374.0">data.LabWork</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="utility.Collector" target="data.Country" relationship="DEPENDENCY">
+      <point x="99.00000000000011" y="-401.0" />
+      <point x="1102.8955479452056" y="724.0" />
+      <point x="1256.734589041096" y="724.0" />
+      <point x="1256.734589041096" y="714.0" />
+      <point x="1368.1038812785387" y="714.0" />
+      <point x="1368.1038812785387" y="119.0" />
+      <point x="1190.4777397260273" y="119.0" />
+      <point x="44.0" y="49.0" />
+    </edge>
+    <edge source="utility.Collector" target="data.Person" relationship="CREATE">
+      <point x="-98.99999999999989" y="-401.0" />
+      <point x="904.8955479452055" y="724.0" />
+      <point x="456.3955479452055" y="724.0" />
+      <point x="456.3955479452055" y="714.0" />
+      <point x="299.5" y="714.0" />
+      <point x="299.5" y="342.0" />
+      <point x="571.8886986301369" y="342.0" />
+      <point x="-59.33333333333337" y="60.0" />
+    </edge>
+    <edge source="data.Person" target="data.Color" relationship="DEPENDENCY">
+      <point x="44.5" y="-60.0" />
+      <point x="675.7220319634703" y="139.0" />
+      <point x="1055.2277397260273" y="139.0" />
+      <point x="1055.2277397260273" y="119.0" />
+      <point x="997.9777397260273" y="119.0" />
+      <point x="40.5" y="49.0" />
+    </edge>
+    <edge source="utility.Collector" target="exceptions.MinimalpointIsLessThenZero" relationship="CREATE">
+      <point x="-98.99999999999989" y="-401.0" />
+      <point x="904.8955479452055" y="724.0" />
+      <point x="456.3955479452055" y="724.0" />
+      <point x="456.3955479452055" y="714.0" />
+      <point x="687.7277397260273" y="714.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="utility.Collector" target="exceptions.ScriptRecursionException" relationship="CREATE">
+      <point x="-98.99999999999989" y="-401.0" />
+      <point x="904.8955479452055" y="724.0" />
+      <point x="456.3955479452055" y="724.0" />
+      <point x="456.3955479452055" y="714.0" />
+      <point x="439.7277397260273" y="714.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="utility.Collector" target="exceptions.WrongDate" relationship="DEPENDENCY">
+      <point x="99.00000000000011" y="-401.0" />
+      <point x="1102.8955479452056" y="724.0" />
+      <point x="1256.734589041096" y="724.0" />
+      <point x="1256.734589041096" y="714.0" />
+      <point x="1294.1038812785387" y="714.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="utility.Collector" target="data.LabWork" relationship="TO_MANY">
+      <point x="1.1368683772161603E-13" y="-401.0" />
+      <point x="1003.8955479452055" y="724.0" />
+      <point x="970.4777397260273" y="724.0" />
+      <point x="47.75" y="159.0" />
+    </edge>
+    <edge source="utility.Collector" target="data.Difficulty" relationship="DEPENDENCY">
+      <point x="99.00000000000011" y="-401.0" />
+      <point x="1102.8955479452056" y="724.0" />
+      <point x="1256.734589041096" y="724.0" />
+      <point x="1256.734589041096" y="714.0" />
+      <point x="1164.7288812785387" y="714.0" />
+      <point x="1164.7288812785387" y="332.0" />
+      <point x="1133.1038812785387" y="332.0" />
+      <point x="45.25" y="49.0" />
+    </edge>
+    <edge source="utility.Collector" target="data.Color" relationship="DEPENDENCY">
+      <point x="99.00000000000011" y="-401.0" />
+      <point x="1102.8955479452056" y="724.0" />
+      <point x="1256.734589041096" y="724.0" />
+      <point x="1256.734589041096" y="714.0" />
+      <point x="1197.8538812785387" y="714.0" />
+      <point x="1197.8538812785387" y="129.0" />
+      <point x="1055.2277397260273" y="129.0" />
+      <point x="1055.2277397260273" y="119.0" />
+      <point x="997.9777397260273" y="119.0" />
+      <point x="40.5" y="49.0" />
+    </edge>
+    <edge source="data.LabWork" target="data.Coordinates" relationship="DEPENDENCY">
+      <point x="47.75" y="-159.0" />
+      <point x="970.4777397260273" y="352.0" />
+      <point x="1006.75" y="352.0" />
+      <point x="1006.75" y="332.0" />
+      <point x="851.0553652968036" y="332.0" />
+      <point x="44.33333333333337" y="49.0" />
+    </edge>
+    <edge source="utility.Collector" target="data.Coordinates" relationship="CREATE">
+      <point x="-98.99999999999989" y="-401.0" />
+      <point x="904.8955479452055" y="724.0" />
+      <point x="456.3955479452055" y="724.0" />
+      <point x="456.3955479452055" y="714.0" />
+      <point x="320.7277397260273" y="714.0" />
+      <point x="320.7277397260273" y="352.0" />
+      <point x="762.3886986301369" y="352.0" />
+      <point x="-44.33333333333337" y="49.0" />
+    </edge>
+    <edge source="utility.Commander" target="utility.Collector" relationship="TO_ONE">
+      <point x="52.0" y="-38.0" />
+      <point x="594.3732876712328" y="1580.0" />
+      <point x="1003.8955479452054" y="1580.0" />
+      <point x="0.0" y="401.0" />
+    </edge>
+    <edge source="utility.Commander" target="exceptions.WrongAmountOfElementsException" relationship="DEPENDENCY">
+      <point x="-52.0" y="-38.0" />
+      <point x="490.3732876712328" y="1580.0" />
+      <point x="537.3732876712328" y="1580.0" />
+      <point x="537.3732876712328" y="1570.0" />
+      <point x="147.8732876712329" y="1570.0" />
+      <point x="147.8732876712329" y="724.0" />
+      <point x="72.25" y="724.0" />
+      <point x="-72.25" y="14.5" />
+    </edge>
+    <edge source="utility.Collector" target="exceptions.WrongAmountOfElementsException" relationship="CREATE">
+      <point x="-98.99999999999989" y="-401.0" />
+      <point x="904.8955479452055" y="724.0" />
+      <point x="456.3955479452055" y="724.0" />
+      <point x="456.3955479452055" y="714.0" />
+      <point x="216.75" y="714.0" />
+      <point x="72.25" y="14.5" />
+    </edge>
+    <edge source="utility.Commander" target="utility.Collector" relationship="DEPENDENCY">
+      <point x="-52.0" y="-38.0" />
+      <point x="490.3732876712328" y="1580.0" />
+      <point x="537.3732876712328" y="1580.0" />
+      <point x="537.3732876712328" y="1570.0" />
+      <point x="904.8955479452054" y="1570.0" />
+      <point x="-99.0" y="401.0" />
+    </edge>
+    <edge source="data.LabWork" target="data.Difficulty" relationship="TO_ONE">
+      <point x="-47.75" y="-159.0" />
+      <point x="874.9777397260273" y="352.0" />
+      <point x="917.7277397260273" y="352.0" />
+      <point x="917.7277397260273" y="322.0" />
+      <point x="1042.6038812785387" y="322.0" />
+      <point x="-45.25" y="49.0" />
+    </edge>
+    <edge source="data.LabWork" target="data.Coordinates" relationship="TO_ONE">
+      <point x="-47.75" y="-159.0" />
+      <point x="874.9777397260273" y="352.0" />
+      <point x="917.7277397260273" y="352.0" />
+      <point x="917.7277397260273" y="322.0" />
+      <point x="806.7220319634703" y="322.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="run.Main" target="utility.Collector" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="599.6232876712328" y="1704.0" />
+      <point x="1014.1455479452054" y="1704.0" />
+      <point x="1014.1455479452054" y="1580.0" />
+      <point x="1102.8955479452056" y="1580.0" />
+      <point x="99.00000000000011" y="401.0" />
+    </edge>
+    <edge source="data.Person" target="data.Country" relationship="TO_ONE">
+      <point x="-44.5" y="-60.0" />
+      <point x="586.7220319634703" y="159.0" />
+      <point x="665.7220319634703" y="159.0" />
+      <point x="665.7220319634703" y="149.0" />
+      <point x="1102.4777397260273" y="149.0" />
+      <point x="-44.0" y="49.0" />
+    </edge>
+    <edge source="data.LabWork" target="data.Difficulty" relationship="DEPENDENCY">
+      <point x="47.75" y="-159.0" />
+      <point x="970.4777397260273" y="352.0" />
+      <point x="1006.75" y="352.0" />
+      <point x="1006.75" y="342.0" />
+      <point x="1164.7288812785387" y="342.0" />
+      <point x="1164.7288812785387" y="332.0" />
+      <point x="1133.1038812785387" y="332.0" />
+      <point x="45.25" y="49.0" />
+    </edge>
+    <edge source="run.Main" target="utility.Commander" relationship="CREATE">
+      <point x="0.0" y="-27.0" />
+      <point x="599.6232876712328" y="1704.0" />
+      <point x="542.3732876712328" y="1704.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="utility.Collector" target="data.LabWork" relationship="CREATE">
+      <point x="-98.99999999999989" y="-401.0" />
+      <point x="904.8955479452055" y="724.0" />
+      <point x="456.3955479452055" y="724.0" />
+      <point x="456.3955479452055" y="714.0" />
+      <point x="874.9777397260273" y="714.0" />
+      <point x="-47.75" y="159.0" />
+    </edge>
+    <edge source="data.LabWork" target="data.Person" relationship="TO_ONE">
+      <point x="-47.75" y="-159.0" />
+      <point x="874.9777397260273" y="352.0" />
+      <point x="917.7277397260273" y="352.0" />
+      <point x="917.7277397260273" y="322.0" />
+      <point x="631.2220319634703" y="322.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="data.Person" target="data.Color" relationship="TO_ONE">
+      <point x="-44.5" y="-60.0" />
+      <point x="586.7220319634703" y="159.0" />
+      <point x="665.7220319634703" y="159.0" />
+      <point x="665.7220319634703" y="149.0" />
+      <point x="916.9777397260273" y="149.0" />
+      <point x="-40.5" y="49.0" />
+    </edge>
+    <edge source="data.Person" target="data.Country" relationship="DEPENDENCY">
+      <point x="44.5" y="-60.0" />
+      <point x="675.7220319634703" y="159.0" />
+      <point x="1368.1038812785387" y="159.0" />
+      <point x="1368.1038812785387" y="119.0" />
+      <point x="1190.4777397260273" y="119.0" />
+      <point x="44.0" y="49.0" />
+    </edge>
+    <edge source="data.LabWork" target="data.Person" relationship="DEPENDENCY">
+      <point x="47.75" y="-159.0" />
+      <point x="970.4777397260273" y="352.0" />
+      <point x="1006.75" y="352.0" />
+      <point x="1006.75" y="332.0" />
+      <point x="690.5553652968036" y="332.0" />
+      <point x="59.33333333333337" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4834619625137817" showDependencies="true" x="683.5" y="897.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
